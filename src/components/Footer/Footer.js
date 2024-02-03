@@ -1,8 +1,14 @@
-import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import React from "react";
+// import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+// import { SocialIcons } from '../Header/HeaderStyles';
+import {
+  FooterWrapper,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+} from "./FooterStyles";
 
 const Footer = () => {
   return (
@@ -10,7 +16,9 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:brandontieu626@gmail.com">brandontieu626@gmail.com</LinkItem>
+          <LinkItem href="mailto:brandontieu626@gmail.com">
+            brandontieu626@gmail.com
+          </LinkItem>
         </LinkColumn>
       </LinkList>
     </FooterWrapper>
