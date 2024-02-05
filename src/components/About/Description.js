@@ -6,25 +6,29 @@ const Description = () => {
   return (
     <div style={descriptionStyle}>
       <p>
-        Hey, I'm Brandon. I'm a computer science graduate from the University of
+        Hey, I'm Brandon! I'm a computer science graduate from the University of
         California, Irvine looking to get started in tech.
       </p>
       <br />
       <p>
-        At the moment, I am actively searching for software engineering entry
-        level or internship positions to gain industry experience!
+        At the moment, I am actively searching for entry-level and internship
+        opportunities in tech to gain industry experience. I enjoy working on
+        the different proccesses that go into creating software such as the
+        development, testing, and design of software.
       </p>
       <br />
       <p>
-        Post-grad, I have been working on individual projects and self-studying
-        full stack development. Currently, I'm working through Full Stack Open
-        2022 learning technologies like React, Node, and MongoDB.
+        Post-grad, I've been developing individual projects, self studying Full
+        Stack development, and working a part time job. Currently, I'm working
+        through different online courses regarding Full Stack development
+        learning technologies like React, Node, and MongoDB.
       </p>
       <br />
       <p>
-        Outside of programming, I enjoy reading good books, playing Valorant,
-        gymming, and listening to rap and k-pop! <br />
-        (My favorite group is LE SSERAFIM!)
+        Outside of programming, I enjoy going to the gym, discovering new music,
+        watching anime, reading a good book, and going to concerts with friends!{" "}
+        <br />
+        (Attack on Titan is my favorite anime!)
       </p>
     </div>
   );
