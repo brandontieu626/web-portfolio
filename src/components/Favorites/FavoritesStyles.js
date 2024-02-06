@@ -3,9 +3,8 @@ import styled from "styled-components";
 export const Img = styled.img`
   max-width: 100%;
   height: auto;
-  object-fit: cover;
-  margin: 10px 20px 20px;
-  display: flex;
+  margin: 0 auto;
+  margin-bottom: 25px;
   transition: all 0.2s ease-in-out;
   &:hover {
     cursor: pointer;
@@ -16,8 +15,15 @@ export const Img = styled.img`
 
 export const GridDiv = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(2, 400px);
+  column-gap: 240px;
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(1, 800px);
+    column-gap: 0px;
+  }
 `;
 export const ItemDiv = styled.div`
+  display: flex;
+  flex-direction: column;
   margin-bottom: 20px;
 `;

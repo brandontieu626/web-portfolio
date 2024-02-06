@@ -24,7 +24,7 @@ const Header = () => (
           marginBottom: "20px",
         }}
       >
-        <DiCompass size="3rem" />
+        <DiCompass size="3rem" style={{ zIndex: "9999" }} />
       </Link>
     </Div1>
     <Div2>
