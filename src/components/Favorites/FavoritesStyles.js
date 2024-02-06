@@ -18,7 +18,7 @@ export const GridDiv = styled.div`
   grid-template-columns: repeat(2, 400px);
   column-gap: 240px;
   @media (max-width: 1200px) {
-    grid-template-columns: repeat(1, 800px);
+    grid-template-columns: repeat(1, 1fr);
     column-gap: 0px;
   }
 `;
