@@ -43,7 +43,7 @@ const Favorites = () => {
           <br />
           <SectionSubText>
             This is my current favorite album! I enjoy the cohesiveness of the
-            album balance between down to earth ballads and catchy rock songs.
+            album balancing between down to earth ballads and catchy rock songs.
           </SectionSubText>
         </ItemDiv>
       </GridDiv>
