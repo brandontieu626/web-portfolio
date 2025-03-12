@@ -7,28 +7,30 @@ const Description = () => {
     <div style={descriptionStyle}>
       <p>
         Hey, I'm Brandon! I'm a computer science graduate from the University of
-        California, Irvine looking to get started in tech.
+        California, Irvine, with experience in web development, quality
+        assurance, and database management systems.
       </p>
       <br />
       <p>
-        At the moment, I am actively searching for entry-level and internship
-        opportunities in tech to gain industry experience. I enjoy working on
-        the different proccesses that go into creating software such as the
-        development, testing, and design of software.
+        Currently, I'm seeking full-time software engineering opportunities to
+        kickstart my career in tech. I'm passionate about the entire software
+        development lifecycle—whether it's building, testing, or designing
+        software.
       </p>
       <br />
       <p>
-        Post-grad, I've been developing individual projects, self studying Full
-        Stack development, and working a part time job. Currently, I'm working
-        through different online courses regarding Full Stack development
-        learning technologies like React, Node, and MongoDB.
+        Since graduation, I’ve gained experience as a Full-time QA Software
+        Engineer Intern at Dassault Systèmes. In addition, I’ve worked on
+        personal projects, self-studied Full Stack development, and maintained a
+        part-time retail job. I'm excited to leverage my skills, continue
+        learning, and contribute to impactful software development in a
+        full-time engineering role.
       </p>
       <br />
       <p>
-        Outside of programming, I enjoy going to the gym, discovering new music,
-        watching anime, reading a good book, and going to concerts with friends!{" "}
-        <br />
-        (Attack on Titan is my favorite anime!)
+        Outside of programming, I enjoy hitting the gym, discovering new music,
+        collecting vinyls, catching new movies at theater, and finding new
+        places to eat!
       </p>
     </div>
   );

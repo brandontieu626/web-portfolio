@@ -20,8 +20,8 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Here is my tech stack! Currently focusing on full-stack development tools
-      and am always trying to learn more.
+      Here is my tech stack! I'm currently focusing on full-stack web
+      development tools and am always trying to learn more.
     </SectionText>
     <List>
       <ListItem>
@@ -35,7 +35,9 @@ const Technologies = () => (
         <DiFirebase size="5rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Node, Express, MySQL, and MongoDB</ListParagraph>
+          <ListParagraph>
+            Node, MySQL, SQL Server Management, and Oracle Database
+          </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>

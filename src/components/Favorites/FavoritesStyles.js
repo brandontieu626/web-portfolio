@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Img = styled.img`
   max-width: 100%;
   height: auto;
+  max-height: 316px;
   margin: 0 auto;
   margin-bottom: 25px;
   transition: all 0.2s ease-in-out;
@@ -15,8 +16,9 @@ export const Img = styled.img`
 
 export const GridDiv = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 400px);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 240px;
+  grid-auto-rows: 1fr;
   @media (max-width: 1200px) {
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0px;

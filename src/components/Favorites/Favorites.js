@@ -13,37 +13,38 @@ const Favorites = () => {
       <GridDiv>
         <ItemDiv>
           <Img
-            src="/images/hmart.jpg"
+            src="/images/dunept2.jpg"
             onClick={() =>
               window.open(
-                "https://www.penguinrandomhouse.com/books/612676/crying-in-h-mart-by-michelle-zauner/",
+                "https://letterboxd.com/film/dune-part-two/",
                 "_blank"
               )
             }
           />
           <SectionSubText>
-            As mentioned before I enjoy reading and this is my favorite book!
-            It's a memoir that focuses on cultural identity and death. It sounds
-            heavy but the way it was written made it easy to read through even
-            with its strong topics.
+            This was my favorite movie of 2024! This was the perfect follow-up
+            to the first Dune. The first Dune was all about setting up the plot
+            and introducing the world of Dune, whereas this movie is where
+            everything pays off.
           </SectionSubText>
         </ItemDiv>
         <ItemDiv>
           <Img
-            src="/images/beatopia.jpg"
+            src="/images/chromakopia.jpg"
             onClick={() =>
               window.open(
-                "https://open.spotify.com/album/2rhNQbqRNxiNQkDXTffe1V?si=FMiE-_xtQgilaIGIufmTCg",
+                "https://open.spotify.com/album/0U28P0QVB1QRxpqp5IHOlH?si=9da3exQ7RGSbp-2i6y9Fkg",
                 "_blank"
               )
             }
           />
-          <br />
-          <br />
-          <br />
           <SectionSubText>
-            This is my current favorite album! I enjoy the cohesiveness of the
-            album balancing between down to earth ballads and catchy rock songs.
+            This is my current favorite album! I've been enjoying it a lot
+            because I think this is Tyler's most vulnerable album yet. He opens
+            up about sensitive topics like relationships, self-acceptance, his
+            lack of a father figure, and more. On top of these more serious
+            topics, he balances it all out with lots of bragging and shows off
+            his ability to create uniquely sounding hard hitting songs.
           </SectionSubText>
         </ItemDiv>
       </GridDiv>
